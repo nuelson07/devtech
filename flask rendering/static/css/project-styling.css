@@ -1,0 +1,219 @@
+/* styling contents of nav bar */
+nav{
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    flex:4;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 2px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 0px 3px 3px rgb(136, 135, 135);
+    border-radius: 5px;
+}
+/* styling nav bar image */
+nav .logo img{
+    height: 50px;
+    width:200px;
+    position: relative;
+    left:0px;
+    bottom:0px;
+
+}
+/* sytling nav bar links */
+nav a{
+    display: grid;
+    gap: 5px;
+    position:relative;
+    bottom:-10px;
+    left:20px;
+    word-spacing: 1px;
+}
+nav a:link{
+    color:rgb(136, 135, 135);
+    font-family:Timmana,'Courier New', Courier, monospace;
+}
+nav a:hover{
+    color:black;
+}
+nav a:active{
+    color:rgb(4,122,4)
+}
+
+
+/* styling moving s texts(marquee tag) */
+marquee{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family:fantasy;
+    top: 17px;
+    z-index: 1;
+    overflow: hidden;
+}
+/* styling body */
+.containeraa{
+    width:100%;
+    height:450px;
+}
+
+.containeraa #authentication a{
+    color:black;
+    font-family:Timmana, 'Courier New', Courier, monospace;
+}
+.containeraa #authentication a:hover{
+    color:rgb(4,122,4);
+    font-family:Timmana, 'Courier New', Courier, monospace;
+}
+
+
+.containeraa #phrase{
+    position: relative;
+    bottom: 370px;
+    width:100%;
+    text-align: center;
+    color:white;
+}
+
+.containeraa #phrase h1{
+    color: rgb(4,122,4);
+    background-color: white;
+    position: relative;
+    top:20px;
+    left:180px;
+    width:60%;
+    font-family:uroob,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containeraa #phrase p{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* styling search bar */
+.containeraa #search input{
+    position: relative;
+    bottom: 380px;
+    left: 260px;
+    height: 30px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.containeraa #search img{
+    height:41px;
+    width:41px;
+    position: relative;
+    bottom: 365px;
+    left:575px;
+    z-index: 1;
+}
+
+/* styling signin button*/
+.containeraa #authentication #button1,.containeraa #authentication #button2{
+    position: relative;
+    bottom: 350px;
+    left:370px;
+    width:100px;
+    overflow: hidden
+}
+
+/* styling contents of container 2 that displays images */
+.photo #slide1{
+    background-color;
+}
+
+#slide1{
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px rgb(136, 135, 135);
+    filter: brightness(50%);
+}
+
+/* styling the footer */
+
+footer{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap: 5px;
+    background-image: url("./images/img5.jpg");
+    width: 100%;
+    height:230px;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow:0px 0px 2px 2px rgb(184, 181, 181);
+    box-sizing: border-box;
+    position: relative;
+    bottom:100px;
+    overflow: hidden;
+    filter: brightness(70%);
+}
+
+/* styling footer contents */
+ /*container 2  */
+ footer .containercc{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    left: 0px;
+    width:100%;
+    height:173px;
+    border: none;
+    line-height: 15PX;
+}
+footer .containercc p{
+    text-align: center;
+    font-family:Timmana,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(184, 181, 181);
+}
+footer .containercc h2{
+    text-align: center;
+    font-family:Purisa,'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(4,122,4);
+    line-height: 19px;
+}
+
+
+
+
+ /*container 2  */
+footer .containerbb{
+    background-color: white;
+    display: grid;
+    position: relative;
+    width: 500px;
+    bottom: 0px;;
+    left: 0px;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+}
+/* boxes styling */
+footer .containerbb #box1, footer .containerbb #box2, footer .containerbb #box3, footer .containerbb #box4{
+    height:100px;
+    border: none;
+    box-shadow:0px 0px 2px 2px rgb(184, 181, 181) ;
+    text-align: center;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: -5px;
+    right: 5px;
+    z-index: 2;
+ }
+
+ /* boxes image styling */
+ footer .containerbb #box1 img,footer .containerbb #box2 img,footer .containerbb #box3 img,footer .containerbb #box4 img{
+    height: 100px;
+    width:100%;
+    filter:brightness(50%)
+ }
+
+ /* styling text to fit background */
+ footer .containerbb #box1 p,footer .containerbb #box2 p,footer .containerbb #box3 p,footer .containerbb #box4 p{
+    position: relative;
+    bottom: 90px;
+    text-align: center;
+    color:white;
+
+ }
