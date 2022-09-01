@@ -5,72 +5,116 @@
 {%endblock%}
 
 {% block body%}
-<nav>
-    <div class="logo">
-        <img src="static/images/logo.jpg" alt="">
-    </div>
-    <div class="nav1">
-        <a href="/home/nuelson/Desktop/group-project/landing.html">HOME</a>
-    </div>
-    <div class="nav2">
-        <a href="link here">PROPERTIES</a>
-    </div>
-    <div class="nav3">
-        <a href="link here">ABOUT US</a>
-    </div>
-    <div class="nav4">
-        <a href="link here">CONTACT US</a>
-    </div>
-    <div class="nav5">
-        <a href="link here">NEWS</a>
-    </div>
-    <div class="nav5">
-        <a href="link here">FAQ</a>
-    </div>
-</nav>
-<marquee> LISTit:....the best place to create your listins LISTit.....we are happy to have you at LISTit......find your dream property here.....sell your property here.... </marquee>
+<div class="image">
+        
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../images/logo-and-tag.jpg" alt="">
+        </div>
+        <div class="nav1">
+            <a href="/home/nuelson/Desktop/group-project/landing.html">HOME</a>
+        </div>
+        <div class="nav2">
+            <a href="link here">PROPERTIES</a>
+        </div>
+        <div class="nav3">
+            <a href="link here">ABOUT US</a>
+        </div>
+        <div class="nav4">
+            <a href="link here">CONTACT US</a>
+        </div>
+        <div class="nav5">
+            <a href="link here">NEWS</a>
+        </div>
+        <div class="nav5">
+            <a href="link here">FAQ</a>
+        </div>
+    </nav>
+    <marquee> LISTit:....the best place to create your listins LISTit.....we are happy to have you at LISTit......find your dream property here.....sell your property here.... </marquee>
 
-<div class="containeraa">
-    <img id="slide1" src="static/images/img6.jpg">
-    <div id="phrase">
-        <h1>home of the best properties in Nigeria</h1>
-        <p>find the properties that suite your fancy, what ever your spec, <br> we got you covered on LISTit <br> we give you the best prices <br> we ensure yoou get what you ordered</p>
-    </div>
-    <div id="search">
-        <img src="static/images/magnifier.png">
-        <input type="text" placeholder="search for properties here"/>
-    </div>
-    <div id="authentication">
-        <button id="button1"><a href="login page">LOGIN</a></button>
-        <button id="button2"><a href="signin page">SIGNIN</a></button>
-    </div>
-    
-</div>
-<footer>
-    <div class="containercc">
-        <h2>FIND ALL YOU WILL EVER NEED TO SELL OR BUY</h2>
+    <div class="containeraa">
+        <img id="slide1" src="./images/img6.jpg">
+        <div id="phrase">
+            <h1>HOME OF THE BEST PROPERTIES IN NIGERIA</h1>
+            <h1>FIND ALL YOU WILL EVER NEED TO SELL OR BUY</h1>
         <p>FIND PEOPLE TO WHO HAVE SIMILAR SPECIFICATIONS WITH YOU<br> TO SPLIT THE RENT WITH YOU</P>
+<!-- <p>find the properties that suite your fancy, what ever your spec, <br> we got you covered on LISTit <br> we give you the best prices <br> we ensure yoou get what you ordered</p> -->
+        </div>                
+        <div id="search">
+            <img src="../images/magnifier.png">
+            <input type="text" placeholder="search for properties here"/>
+        </div>
+        <div id="authentication">
+            <button id="button1"><a href="login page">LOGIN</a></button>
+            <button id="button2"><a href="signin page">SIGN UP</a></button>
+        </div>
+        
+    </div>
+</div>
+<!-- <footer>
+    <div class="containercc">
+        
         <p>OUR SERVICEs ARE PRESENT IN ALL NIGERIAN CITIES YOU HAVE NEVER BEEN BETTER COVERED IN REAL ESTATE </P>
         
     </div>
     <div class="containerbb">
         <div id="box1">
-            <img src="static/images/img1.jpg">
+            ?
             <p>search properties all over Nigeria</p>
         </div>
         <div id="box2">
-            <img src="static/images/img2.jpg">
+            <img src="./images/img2.jpg">
             <p>find people to split-the-rent with</p>
         </div>
         <div id="box3">
-            <img src="static/images/img3.jpg">
+            <img src="./images/img3.jpg">
             <p>buy properties all over Nigeria</p>
         </div>
         <div id="box4">
-            <img src="static/images/img4.jpg">
+            <img src="./images/img4.jpg">
             <p>get properties you pay with with no SCAMS</p>
         </div>
     </div>
     
-</footer>
+</footer> -->
+<div class="down">
+    <footer class="footer">
+        <div class="col-1">
+            <h3> USEFUL LINKS</h3>
+            <a href="#about">About Us</a>
+            <a href="#properties">Propert ies</a>
+            <a href="#services">Services</a>
+            <a href="#contactus">Contact Us</a>
+            <a href="#news">News</a>
+            <a href="#faq">FAQ</a>
+            
+        </div>
+        <div class="col-2">
+            <h3>NEWSLETTER</h3>
+            <form action="" method="post">
+                <input type="email" placeholder="your email address">
+                <br>
+                <button type="submit"> SUBCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="col-3"> 
+            <h3>CONTACT</h3>
+            <img src="../images/icon-location.svg" alt="">
+            <P> Shop 4, plaza 2, Domkat Bali Road <br>Jos Plateau state.</P>
+            <br>
+            <img src="../images/icon-phone.svg" alt="">
+            <p>+234 568 268 0762</p>
+            <br>
+            <img src="../images/icon-email.svg" alt="">
+            <p>lisit2022@gmail.com</p>
+            <div class="socialicons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+</div>
 {%endblock%}
